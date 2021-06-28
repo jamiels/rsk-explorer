@@ -821,7 +821,7 @@ const Sidebar = ({
             tabIndex="0"
             onKeyPress={toggleSettings}
             onClick={toggleSettings}
-            className="tour-1 vb__utils__sidebar__button t-2"
+            className="tour-1 vb__utils__sidebar__button"
           >
             <i className="fe fe-settings" />
           </a>
