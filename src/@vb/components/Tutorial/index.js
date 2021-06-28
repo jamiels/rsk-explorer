@@ -5,6 +5,10 @@ import style from './style.module.scss'
 
 const steps = [
 
+  {
+    selector: '.t-1',
+    content: 'A simple tutorial can be added. Chainhaus :)',
+  },
 ]
 
 const TutorialComponent = () => {
