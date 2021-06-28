@@ -1,0 +1,20 @@
+[
+  {
+    "key": "1",
+    "actionName": "Liquidity",
+    "progress": {"value": 60, "color": "bg-success"},
+    "value": "$32,076,400"
+  },
+  {
+    "key": "2",
+    "actionName": "Pools",
+    "progress": {"value": 15, "color": "bg-orange"},
+    "value": "3"
+  },
+  {
+    "key": "3",
+    "actionName": "Other",
+    "progress": {"value": 25, "color": "bg-primary"},
+    "value": "Other"
+  }
+]

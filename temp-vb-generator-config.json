@@ -1,0 +1,599 @@
+{
+  "vb": "1.0.0",
+  "timestamp": 1624833838511,
+  "settings": {
+    "authProvider": "jwt",
+    "logo": "RSK Explorer",
+    "version": "fluent",
+    "theme": "default",
+    "locale": "en-US",
+    "isSidebarOpen": false,
+    "isSupportChatOpen": false,
+    "isMobileView": false,
+    "isMobileMenuOpen": false,
+    "isMenuCollapsed": false,
+    "isPreselectedOpen": false,
+    "preselectedVariant": "default",
+    "menuLayoutType": "left",
+    "routerAnimation": "slide-fadein-up",
+    "menuColor": "white",
+    "authPagesColor": "gray",
+    "isAuthTopbar": true,
+    "primaryColor": "#15600b",
+    "leftMenuWidth": 256,
+    "isMenuUnfixed": false,
+    "isMenuShadow": false,
+    "isTopbarFixed": true,
+    "isTopbarSeparated": false,
+    "isGrayTopbar": false,
+    "isContentMaxWidth": false,
+    "isAppMaxWidth": false,
+    "isGrayBackground": false,
+    "isCardShadow": false,
+    "isSquaredBorders": false,
+    "isBorderless": true,
+    "layoutMenu": "classic",
+    "layoutTopbar": "v1",
+    "layoutBreadcrumbs": "v1",
+    "layoutFooter": "v1",
+    "flyoutMenuType": "flyout",
+    "flyoutMenuColor": "blue"
+  },
+  "config": [
+    { "key": "__dashboard", "title": "Dashboard", "url": "/dashboard", "icon": "fe fe-home" },
+    { "title": "Prices", "url": "/rskprice", "icon": "fe fe-dollar-sign", "key": "c1poxa" },
+    { "title": "Liquidity Pools", "url": "/pools", "icon": "fe fe-droplet", "key": "z0tyaa" },
+    { "title": "Blocks", "url": "/blocks", "icon": "fe fe-package", "key": "piwuf" },
+    {
+      "title": "Transactions",
+      "url": "/transactions",
+      "icon": "fe fe-minimize-2",
+      "key": "flqwam"
+    },
+    { "title": "Addresses", "url": "/addresses", "icon": "fe fe-at-sign", "key": "mc08xyl" },
+    { "title": "Nodes", "url": "/nodes", "icon": "fe fe-copy", "key": "d1yqvn" },
+    { "title": "Tokens", "url": "/tokens", "icon": "fe fe-git-branch", "key": "x0xri9" },
+    {
+      "title": "Stats",
+      "url": "/stats",
+      "icon": "fe fe-activity",
+      "key": "i6av4",
+      "expanded": true
+    },
+    { "title": "Block Details", "url": "/block", "key": "eq2j1k" },
+    { "title": "Address Details", "url": "/address", "key": "3hh5bj" }
+  ],
+  "content": {
+    "__dashboard": [
+      {
+        "key": "e3onw7",
+        "columns": [
+          {
+            "key": "3xixr",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "btli8v",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "7oiqp9c", "name": "WidgetsCharts-2", "wrapper": false }]
+              }
+            ]
+          },
+          {
+            "key": "bjwpp4",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "u4padp",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "qy3gnm", "name": "WidgetsCharts-2", "wrapper": false }]
+              }
+            ]
+          },
+          {
+            "key": "30ezf",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "kr7ro",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "u4dsgq", "name": "WidgetsCharts-2", "wrapper": false }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fdree",
+        "columns": [
+          {
+            "key": "5yz3hf",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "zmpi7r",
+                "extraClass": "card card-top card-top-primary",
+                "widgets": [
+                  {
+                    "key": "ir9d8r",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Blocks" }
+                  },
+                  { "key": "a6fswm", "name": "WidgetsTables-4" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "mle689",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "qytmz8",
+                "extraClass": "card card-top card-top-primary",
+                "widgets": [
+                  {
+                    "key": "2d4ldt",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Transactions" }
+                  },
+                  { "key": "qykwj4", "name": "WidgetsTables-4" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "piwuf": [
+      {
+        "key": "e6pvoe",
+        "columns": [
+          {
+            "key": "v4n43f",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "ubcqk",
+                "extraClass": "card card-top card-top-primary",
+                "widgets": [
+                  {
+                    "key": "pje75oa",
+                    "name": "Headers-CardHeaderTabbed2",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header py-0",
+                    "data": { "title": "Blocks" }
+                  },
+                  { "key": "zihmqb", "name": "WidgetsTables-3" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "i6av4": [
+      {
+        "key": "dunk6c",
+        "columns": [
+          {
+            "key": "1ngzx",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "orhwji",
+                "extraClass": "card card-top card-top-primary",
+                "widgets": [
+                  {
+                    "key": "q3pqld",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Uncles" }
+                  },
+                  { "key": "lfegko", "name": "ChartsChartistjs-1" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "vrzavxe",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "0vqjd",
+                "extraClass": "card card-top card-top-primary",
+                "widgets": [
+                  {
+                    "key": "boyqjf",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Block Times" }
+                  }
+                ]
+              },
+              {
+                "key": "fp29yl",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "2ukkw", "name": "ChartsChartistjs-3" }]
+              }
+            ]
+          },
+          {
+            "key": "s1hi6f",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "rgev2h",
+                "extraClass": "card card-top card-top-primary",
+                "widgets": [
+                  {
+                    "key": "h8kp3d",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Difficulty" }
+                  }
+                ]
+              },
+              {
+                "key": "7e7cs",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "l6q8z6", "name": "ChartsChartistjs-4" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pyvzjq",
+        "columns": [
+          {
+            "key": "tl5wha",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "u0y88q",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "u80lnl",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Gas Spending" }
+                  },
+                  { "key": "fk0x8j", "name": "ChartsChartistjs-4" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "n8kyyw",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "0ggbj",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "8zzsh",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Transaction Density" }
+                  },
+                  { "key": "cxat7", "name": "ChartsChartistjs-2" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "0kfry",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "vlhees",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "5e8xgf",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Block Propagation" }
+                  },
+                  { "key": "pirdi", "name": "ChartsChartistjs-5" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "d1yqvn": [
+      {
+        "key": "s4l9uq",
+        "columns": [
+          {
+            "key": "2lqqln",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "vospr8",
+                "extraClass": "card card-top card-top-primary",
+                "widgets": [
+                  {
+                    "key": "o2dab8",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Nodes" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "c1poxa": [
+      {
+        "key": "v372vi",
+        "columns": [
+          {
+            "key": "alyjzm",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "d9eied",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "a3996v", "name": "Crypto-CryptoList" }]
+              }
+            ]
+          },
+          {
+            "key": "zyvb3",
+            "className": "col-lg-8 col-md-12",
+            "cards": [
+              {
+                "key": "aqmy9d",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "pkmpbf", "name": "Crypto-CryptoChart" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "flqwam": [
+      {
+        "key": "inf4w",
+        "columns": [
+          {
+            "key": "dskp4s",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "81furf",
+                "extraClass": "card card-top card-top-primary",
+                "widgets": [
+                  {
+                    "key": "8tphdm",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Transactions" }
+                  },
+                  { "key": "kdegbs", "name": "WidgetsTables-3" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "eq2j1k": [
+      {
+        "key": "nfessb",
+        "columns": [
+          {
+            "key": "qnyixj",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "wr1bw8",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  { "key": "71osxe", "name": "WidgetsTables-5" },
+                  {
+                    "key": "64w2kn",
+                    "name": "Headers-CardHeaderTabbed2",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header py-0",
+                    "data": { "title": "Block Transactions" }
+                  },
+                  { "key": "vt1qq", "name": "TablesBootstrap-2" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "3hh5bj": [
+      {
+        "key": "g1slth",
+        "columns": [
+          {
+            "key": "fonf6",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "u8j51",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  { "key": "2tbr2", "name": "WidgetsTables-5" },
+                  {
+                    "key": "yg4ia",
+                    "name": "Headers-CardHeaderTabbed2",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header py-0",
+                    "data": { "title": "Account Transactions" }
+                  },
+                  { "key": "1o1c1", "name": "TablesBootstrap-2" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "mc08xyl": [
+      {
+        "key": "08nsds",
+        "columns": [
+          {
+            "key": "3gjlnr",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "9ekjip",
+                "extraClass": "card card-top card-top-primary",
+                "widgets": [
+                  {
+                    "key": "j2qhni",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Addresses" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "x0xri9": [
+      {
+        "key": "f8t0pa",
+        "columns": [
+          {
+            "key": "sdv67t",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "sdamzh",
+                "extraClass": "card card-top card-top-primary",
+                "widgets": [
+                  {
+                    "key": "g47ikf",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Tokens" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "z0tyaa": [
+      {
+        "key": "xxrzhn",
+        "columns": [
+          {
+            "key": "kgmau",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "s6khdx",
+                "extraClass": "card card-top card-top-primary",
+                "widgets": [
+                  {
+                    "key": "gts4zi",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Liquidity Pools" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "e6esuf",
+        "columns": [
+          {
+            "key": "z945i",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "sqekl",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "orrxvi",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Uniswap" }
+                  },
+                  { "key": "e319p", "name": "WidgetsTables-1" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "zabtb",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "lphqpq",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "kpvx9k",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "PancakeSwap" }
+                  },
+                  { "key": "starwq", "name": "WidgetsTables-1" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
