@@ -15,7 +15,6 @@ import Footer2 from '@vb/components/Footer2'
 import Footer3 from '@vb/components/Footer3'
 import Footer4 from '@vb/components/Footer4'
 import Sidebar from '@vb/components/Sidebar'
-import SupportChat from '@vb/components/SupportChat'
 import Variants from '@vb/components/Variants'
 import Tutorial from '@vb/components/Tutorial'
 
@@ -126,7 +125,7 @@ const MainLayout = ({
         <Tutorial />
         <Variants />
         <Sidebar />
-        <SupportChat />
+        {/* <SupportChat /> */}
         {layoutMenu === 'classic' && <MenuClassic />}
         {layoutMenu === 'flyout' && <MenuFlyout />}
         {layoutMenu === 'simply' && <MenuSimply />}

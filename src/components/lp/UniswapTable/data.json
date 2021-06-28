@@ -13,8 +13,8 @@
   },
   {
     "key": "3",
-    "actionName": "Other",
+    "actionName": "Smart Contract Address",
     "progress": {"value": 25, "color": "bg-primary"},
-    "value": "Other"
+    "value": "https://info.uniswap.org/#/pools/0x3c4323f83d91b500b0f52cb19f7086813595f4c9"
   }
 ]

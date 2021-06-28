@@ -1,0 +1,20 @@
+[
+  {
+    "key": "1",
+    "avatar": "https://styles.redditmedia.com/t5_3a8nl/styles/communityIcon_vapq6mubnic31.jpg?width=256&format=pjpg&s=fd132cf9903abe00dadcbcf68499edda1e4dd7b6",
+    "userName": {"name": "0x23f...9832", "position": "0xe06ad00799a4ad9c3c17ef4d5c30cd122ed3d21ccb285d86be54c394b0ff6371"},
+    "location": "1 RBTC"
+  },
+  {
+    "key": "2",
+    "avatar": "https://styles.redditmedia.com/t5_3a8nl/styles/communityIcon_vapq6mubnic31.jpg?width=256&format=pjpg&s=fd132cf9903abe00dadcbcf68499edda1e4dd7b6",
+    "userName": {"name": "0x4a3..a49c", "position": "0x4a317d9de988f38be6cce42bc4239c68b25dd6104eceb978ce1c9acee954a49c"},
+    "location": ".01 RBTC"
+  },
+  {
+    "key": "3",
+    "avatar": "https://styles.redditmedia.com/t5_3a8nl/styles/communityIcon_vapq6mubnic31.jpg?width=256&format=pjpg&s=fd132cf9903abe00dadcbcf68499edda1e4dd7b6",
+    "userName": {"name": "0xd78..6020", "position": "0xd78ed2f3c3b6c8663dfea1d09a62059bb80d30b5f55e59136ac5b3a6a5fa6020"},
+    "location": ".02 RBTC"
+  }
+]

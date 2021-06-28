@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import HeadersCardHeader from '@vb/widgets/Headers/CardHeader'
-import WidgetsTables3 from '@vb/widgets/WidgetsTables/3'
+import TransactionsTable from 'components/transactions/TransactionsTable'
 
 const Transactions = () => {
   return (
@@ -14,7 +14,7 @@ const Transactions = () => {
               <HeadersCardHeader data={{ title: 'Transactions' }} />
             </div>
             <div className="card-body">
-              <WidgetsTables3 />
+              <TransactionsTable />
             </div>
           </div>
         </div>

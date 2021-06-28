@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import HeadersCardHeaderTabbed2 from '@vb/widgets/Headers/CardHeaderTabbed2'
-import WidgetsTables3 from '@vb/widgets/WidgetsTables/3'
+import BlocksTable from 'components/blocks/BlocksTable'
 
 const Blocks = () => {
   return (
@@ -14,7 +14,7 @@ const Blocks = () => {
               <HeadersCardHeaderTabbed2 data={{ title: 'Blocks' }} />
             </div>
             <div className="card-body">
-              <WidgetsTables3 />
+              <BlocksTable />
             </div>
           </div>
         </div>

@@ -778,9 +778,9 @@ const Sidebar = ({
         </PerfectScrollbar>
       </div>
       <div className="vb__utils__sidebar__buttons">
-        <Tooltip title="Try Visual Builder" placement="left">
+        <Tooltip title="Chainhaus" placement="left">
           <a
-            href="https://visualbuilder.cloud"
+            href="https://Chainhaus.com"
             target="_blank"
             rel="noopener noreferrer"
             className="tour-1 vb__utils__sidebar__button t-1"
@@ -868,16 +868,6 @@ const Sidebar = ({
               value={primaryColor}
             />
             <i className="fe fe-package" />
-          </a>
-        </Tooltip>
-        <Tooltip title="Documentation" placement="left">
-          <a
-            href="https://docs.visualbuilder.cloud"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="vb__utils__sidebar__button t-6"
-          >
-            <i className="fe fe-book-open" />
           </a>
         </Tooltip>
       </div>
