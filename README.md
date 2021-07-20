@@ -5,6 +5,8 @@ This RSK block explorer proof of concepts suggests a fresh new UI with emphasis 
 ## YouTube Video
 The YouTube video describes the two deliverables: RSK Explorer and PySOVRYN
 
+YouTube presentation: https://youtu.be/NlVgNi9roSU
+
 ## Presentation Deck
 
 The presentation deck: https://github.com/jamiels/rsk-explorer/blob/main/PresentationDeck.pdf
